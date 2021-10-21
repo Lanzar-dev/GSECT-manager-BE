@@ -1,5 +1,5 @@
 import { User } from "../model/userModel.js";
-import ErrorResponse from "../utils/ErrorResponse.js";
+import ErrorResponse from "../utils/errorResponse.js";
 import { sendEmail } from "../utils/sendEmail.js";
 import crypto from "crypto";
 

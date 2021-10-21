@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import { User } from "../model/userModel.js";
-import ErrorResponse from "../utils/ErrorResponse.js";
+import ErrorResponse from "../utils/errorResponse.js";
 
 export const isAuth = async (req, res, next) => {
   let token;
