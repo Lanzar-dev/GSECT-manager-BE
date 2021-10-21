@@ -27,4 +27,4 @@ app.use("/api/private", privateRoute);
 // app.use(router);
 app.use(errorHandler);
 
-export default app;
+export default app
