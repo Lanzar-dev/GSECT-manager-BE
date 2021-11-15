@@ -33,7 +33,12 @@ const userSchema = new Schema(
       enum: ["admin", "normal"],
       default: "normal",
     },
-    imgurl: String,
+    subscriptionType: {
+      type: String,
+      enum: ["regular", "premium", "platinum"],
+      default: "regular",
+    },
+    imgUrl: String,
     resetPasswordToken: String,
     resetPasswordExpire: Date,
   },
