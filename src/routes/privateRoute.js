@@ -1,5 +1,5 @@
 import express from "express";
-import { privateInfo } from "../controllers/private.js";
+import { privateInfo } from "../controllers/Private.js";
 import { isAuth } from "../middleware/auth.js";
 const router = express.Router();
 
